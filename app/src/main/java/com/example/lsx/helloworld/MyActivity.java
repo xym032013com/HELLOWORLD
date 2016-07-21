@@ -29,6 +29,14 @@ public class MyActivity extends AppCompatActivity {
             }
         });
 
+        Button button = (Button) findViewById(R.id.content_my_button);
+        button.setOnClickListener(new View.OnClickListener(){
+            @Override
+            public void onClick(View v){
+                Log.d("xym","打印日志");
+            }
+        });
+
     }
 
     @Override
